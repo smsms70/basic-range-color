@@ -1,0 +1,46 @@
+body {
+	background: #aaa;
+	margin: 0;
+	display: flex;
+}
+#cover{
+	border: 1px solid darkred;
+	margin: 60px 20px 0 20px;
+}
+#botones{
+	height: 200px;
+	width: 130px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 120px;
+
+}
+div div{
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+
+#empty{
+	background: white;
+	border: 1px black solid;
+	height: 40px;
+	width: 140px;
+}
+input[type=range]{
+  height: 10px;
+  border-radius: 7px;
+  background: #d44;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.5px;
+}
+#green[type=range]{
+  background: #494;
+}
+#blue[type=range]{
+  background: #449;
+}
